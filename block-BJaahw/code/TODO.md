@@ -1,4 +1,11 @@
 1. Create a function `createUser` that accepts `name` and `age` and returns a new object with those properties.
+```js
+function createUser(name,age) {
+ return newObj{
+   name: Vandana, age: 23;
+ }
+}
+```
 
 2. Add a method named `sayHello` inside the object created above. When called it should alert `Welcome {user}`. Replace `{user}` with the name of the user.
 
@@ -17,3 +24,4 @@
 9. Check by creating two instance of the class using data of two different persons and re-assign the value of `personOne` and `personTwo`
 
 10. Try calling `personOne.sayHello()` and `personTwo.sayHello()`. Check if you get the required output.
+
