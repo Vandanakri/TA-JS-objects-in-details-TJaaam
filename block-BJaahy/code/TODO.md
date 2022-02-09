@@ -1,8 +1,22 @@
 # More about class
 
 - Create a class named `Square` which accepts one parameter `side` and will set two property `width` and `height` to the value of `side`.
+```js
+class Square {
+  constractor(side = width,height) {
+    this.side.width = side;
+    this.side.height = side;
+  }
+}
+
+```
 
 - Add a method name `description` that will alert a message saying `The square is ${width} x ${height}`
+```js
+
+
+```
+
 
 - Create a method inside the class named `calcArea` that will return the area of the square.
 
@@ -37,3 +51,5 @@
 - Check the `fullName` using getter
 
 - Check the `nameContains` method
+
+
