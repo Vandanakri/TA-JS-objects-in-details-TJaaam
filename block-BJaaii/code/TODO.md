@@ -27,6 +27,12 @@ Getter
 
 - `length`: returns the current length of the stack.
 
+class Stack {
+  constractor(value,add) {
+    
+  }
+}
+
 #### Test
 
 ```js
