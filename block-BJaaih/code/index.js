@@ -8,9 +8,9 @@
 // Test the myMap function you created above
 
 let numbers = [1, 5, 6, 8, 9];
-let words = 'quick brown fox jumped over a lazy dog'.split(
-  ' '
-);
+let words = 'quick brown fox jumped over a lazy dog'.split(' ');
+
+
 let doubleNum = numbers.myMap(function (num) {
   return num * 2 - 1;
 });
@@ -50,6 +50,9 @@ Make sure it does not the changes the original array.
 */
 
 // You code goes here
+let shuffleNumber = {
+  
+}
 
 // Test to check the shuffle method (It will return different output every time you call)
 console.log(numbers.shuffle());
